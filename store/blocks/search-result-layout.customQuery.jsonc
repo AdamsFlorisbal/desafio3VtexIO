@@ -3,11 +3,13 @@
     "search-result-layout.customQuery#home": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "simulationBehavior": "skip",
                 "maxItemsPerPage": 8,
                 "queryField": "kit-upmedal",
-                "mapField": "c"
+                "mapField": "ft"
+               
+
             }
         },
         "blocks": [
